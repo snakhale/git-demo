@@ -17,6 +17,9 @@ public class App
        
     }
     
+    public void addedMethod(){
+        System.out.println( "Method added by another user" );
+    }
     public void addData(String data) {
     	System.out.println("data ="+data);
     	if (data.equals(Constant.DATA_TYPE)) {
